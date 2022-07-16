@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WrapMatch">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapMatch.OnCard">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_toEndOf">@id/img_photo</item>
+    </style>
+
+    <style name="WrapMatch.DetailUser">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wrap.ContextUser">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Wrap.TotalData">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Wrap.Symbol">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">16sp</item>
+    </style>
+</resources>
